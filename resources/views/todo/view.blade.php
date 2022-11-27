@@ -1,7 +1,7 @@
 @extends('../layout.main')
 
 @section('content')
-    <h1 class="h3 mb-2 text-gray-800">Todo List</h1>
+    <h1 class="h3 mb-2 text-gray-800">เทป Todo List </h1>
     <div class="mt-2 mb-2">
         <a href="{{ url('/todos/create') }}" class="btn btn-primary">เพิ่ม Todo</a>
     </div>
